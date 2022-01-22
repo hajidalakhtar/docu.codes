@@ -1,0 +1,47 @@
+# HTML Tutorial
+>Atribut HTML memberikan informasi tambahan tentang elemen HTML.
+
+
+## Atribut HTML
+
+* Semua elemen HTML dapat memiliki atribut
+* Atribut memberikan informasi tambahan tentang elemen
+* Atribut selalu ditentukan di tag awal
+* Atribut biasanya datang dalam pasangan nama/nilai seperti: nama="nilai"
+
+## Atribut href
+Tag ```<a>``` mendefinisikan hyperlink. Atribut hrefmenentukan URL halaman yang dituju tautan:
+
+
+import Trycode from 'nextra-theme-docs/trycode'
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_link">
+    ```html
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+    ```
+    </Trycode>
+</div>
+Anda akan mempelajari lebih lanjut tentang tautan di bab Tautan HTML kami .
+
+## Atribut src
+Tag ```<img>``` digunakan untuk menyematkan gambar di halaman HTML. Atribut srcmenentukan jalur ke gambar yang akan ditampilkan:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_img_src">
+    ```html
+<img src="img_girl.jpg">
+
+    ```
+    </Trycode>
+</div>
+Ada dua cara untuk menentukan URL dalam ```src``` atribut:
+
+**1. URL Absolut**: Tautan ke gambar eksternal yang dihosting di situs web lain. Contoh: ```src="https://www.w3schools.com/images/img_girl.jpg"``` .
+
+**Catatan**: Gambar eksternal mungkin berada di bawah hak cipta. Jika Anda tidak mendapatkan izin untuk menggunakannya, Anda mungkin melanggar hak cipta. Selain itu, Anda tidak dapat mengontrol gambar eksternal; itu bisa tiba tiba dihapus atau diubah.
+
+**2. URL Relatif** : Tautan ke gambar yang dihost di dalam situs web. Di sini, URL tidak menyertakan nama domain. Jika URL dimulai tanpa garis miring, itu akan relatif terhadap halaman saat ini. Contoh: src="img_girl.jpg". Jika URL dimulai dengan garis miring, itu akan menjadi relatif terhadap domain. Contoh: ```src="/images/img_girl.jpg"```.
+
+**Tip:** Hampir selalu yang terbaik adalah menggunakan URL relatif. Mereka tidak akan rusak jika Anda mengubah domain.
