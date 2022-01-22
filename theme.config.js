@@ -1,12 +1,12 @@
 export default {
   github: 'https://github.com/shuding/nextra',
   docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  titleSuffix: ' – BelajarCoding',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">BelajarCoding</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+       Mudah belajar coding
       </span>
     </>
   ),
@@ -62,6 +62,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © BelajarCoding.</>,
   unstable_faviconGlyph: '👋',
 }
