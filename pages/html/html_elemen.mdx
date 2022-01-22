@@ -1,0 +1,102 @@
+# HTML Tutorial
+>Elemen HTML didefinisikan oleh tag awal, beberapa konten, dan tag akhir.
+
+## Elemen HTML
+
+
+**Elemen** HTML adalah segalanya mulai dari tag awal hingga tag akhir:
+
+```html
+<tagname> Konten ada di sini... </tagname>
+```
+Contoh beberapa elemen HTML:
+
+```html
+<h1> Judul Pertama Saya </h1>
+</br>
+<p> Paragraf pertama saya. </p>
+```
+| Start tag | Element content     | End tag |
+|-----------|---------------------|---------|
+| ```<h1>```      | My First Heading    | ```</h1> ```  |
+| ```<br> ```     | none                | none    |
+|``` <p> ```      | My first paragraph. |``` </p>```    |
+
+
+## Elemen HTML Bersarang
+Elemen HTML dapat bersarang (ini berarti elemen dapat berisi elemen lain).
+
+Semua dokumen HTML terdiri dari elemen HTML bersarang.
+
+Contoh berikut berisi empat elemen HTML ( ```<html>```, ```<body>```, ```<h1>``` dan ```<p>```):
+
+import Trycode from 'nextra-theme-docs/trycode'
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
+    ```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>My First Heading</h1>
+        <p>My first paragraph.</p>
+    </body>
+</html>
+    ```
+    </Trycode>
+</div>
+
+Elemen ```<html>``` adalah elemen root dan mendefinisikan seluruh dokumen HTML.
+
+Ini memiliki tag awal ```<html>``` dan tag akhir ```</html>```.
+
+Kemudian, di dalam ```<html>``` elemen ada ```<body>``` elemen:
+```html
+<body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+</body>
+```
+Elemen ```<body>``` mendefinisikan tubuh dokumen.
+
+Ini memiliki tag awal ```<body>``` dan tag akhir ```</body>```.
+
+Kemudian, di dalam ```<body>``` elemen ada dua elemen lainnya: ```<h1>``` dan ```<p>```:
+
+```html
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+```
+
+Elemen ```<h1>``` mendefinisikan heading.
+
+Ini memiliki tag awal ```<h1>``` dan tag akhir ```</h1>```:
+```html
+<h1>My First Heading</h1>
+```
+Elemen ```<p>``` mendefinisikan paragraf.
+
+Ini memiliki tag awal ```<p>```dan tag akhir ```</p>```:
+```html
+<p>My first paragraph.</p>
+```
+
+## Jangan Lewati Tag Akhir
+Beberapa elemen HTML akan ditampilkan dengan benar, bahkan jika Anda lupa tag akhir:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_no_endtag">
+    ```html
+<html>
+<body>
+
+<p>This is a paragraph
+<p>This is a paragraph
+
+</body>
+</html>
+    ```
+    </Trycode>
+</div>
+
+**Namun, jangan pernah mengandalkan ini! Hasil dan kesalahan yang tidak terduga dapat terjadi jika Anda lupa tag akhir!**
