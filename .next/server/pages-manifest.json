@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/html/html_basic": "pages/html/html_basic.js",
-  "/html/html_introduction": "pages/html/html_introduction.js",
-  "/html/html_home": "pages/html/html_home.js"
+  "/": "pages/index.js"
 }
