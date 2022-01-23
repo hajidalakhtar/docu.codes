@@ -1,12 +1,12 @@
 export default {
-  github: 'https://github.com/hajidalakhtar/belajarcoding',
+  github: false,
   docsRepositoryBase: 'https://github.com/hajidalakhtar/belajarcoding',
   titleSuffix: ' – BelajarCoding',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">BelajarCoding</span>
+      <span className="mr-2 font-extrabold hidden md:inline">BELAJAR CODING</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-       Mudah belajar coding
+       
       </span>
     </>
   ),
@@ -61,7 +61,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: 'Edit this page on GitHub',
+  footerEditLink: false,
   footerText: <>MIT {new Date().getFullYear()} © BelajarCoding.</>,
   unstable_faviconGlyph: '👋',
 }

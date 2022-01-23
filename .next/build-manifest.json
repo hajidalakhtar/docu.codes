@@ -24,15 +24,30 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/html/html_atribut": [
+    "/html/html_formatting": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/html/html_atribut.js"
+      "static/chunks/pages/html/html_formatting.js"
+    ],
+    "/html/html_header": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/html/html_header.js"
     ],
     "/html/html_paragraphs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/html/html_paragraphs.js"
+    ],
+    "/html/html_quotation": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/html/html_quotation.js"
+    ],
+    "/html/html_style": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/html/html_style.js"
     ]
   },
   "ampFirstPages": []

@@ -6,6 +6,9 @@
   "html_elemen": "Elemen HTML",
   "html_atribut": "Atribut",
   "html_header" : "Heading ",
-  "html_paragraphs" : "Paragraf"
+  "html_paragraphs" : "Paragraf",
+  "html_style" : "Style",
+  "html_formatting" : "Text Formatting",
+  "html_quotation" : "Quotation"
    
 }
