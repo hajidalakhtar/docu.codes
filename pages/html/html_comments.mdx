@@ -1,27 +1,48 @@
-# HTML Tutorial
+# Komentar 
+Komentar HTML tidak ditampilkan di browser, tetapi dapat membantu mendokumentasikan kode sumber HTML Anda.
+## Tag Komentar
 
-## Belajar Mudah dengan HTML
+Anda dapat menambahkan komentar ke sumber HTML Anda dengan menggunakan sintaks berikut:
 
-Dengan editor "Try it Yourself" yang di sediakan W3School, Anda dapat mengedit kode HTML dan melihat hasilnya:
+    ```html
+<!-- Write your comments here -->
+
+    ```
+Perhatikan bahwa ada tanda seru (!) di tag awal, tetapi tidak di tag akhir.
+**Catatan**: Komentar tidak ditampilkan oleh browser, tetapi dapat membantu mendokumentasikan kode sumber HTML Anda.
+
+
+## Tambahkan Komentar
+Dengan komentar Anda dapat menempatkan pemberitahuan dan pengingat dalam kode HTML Anda:
 
 
 import Trycode from 'nextra-theme-docs/trycode'
 
 <div >
-<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment">
     ```html
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Page Title</title>
-        </head>
-        <body>
-            <h1>This is a Heading</h1>
-            <p>This is a paragraph.</p>
-        </body>
-    </html>
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+
+<!-- Remember to add more information here -->
     ```
     </Trycode>
 </div>
 
+## Sembunyikan Konten
+Komentar dapat digunakan untuk menyembunyikan konten.
 
+Yang dapat membantu jika Anda menyembunyikan konten untuk sementara:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_comment_hide">
+    ```html
+<p>This is a paragraph.</p>
+
+<!-- <p>This is another paragraph </p> -->
+
+<p>This is a paragraph too.</p>
+    ```
+    </Trycode>
+</div>

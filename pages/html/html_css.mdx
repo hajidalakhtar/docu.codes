@@ -1,0 +1,212 @@
+# CSS
+CSS adalah singkatan dari Cascading Style Sheets.
+
+CSS menghemat banyak pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligus.
+
+![CSS](/css.png)
+
+## Apa itu CSS?
+Cascading Style Sheets (CSS) digunakan untuk memformat tata letak halaman web.
+
+Dengan CSS, Anda dapat mengontrol warna, font, ukuran teks, jarak antar elemen, bagaimana elemen diposisikan dan ditata, gambar latar belakang atau warna latar apa yang akan digunakan, tampilan berbeda untuk perangkat dan ukuran layar yang berbeda, dan lebih banyak!
+
+**Tip**: Kata cascading berarti bahwa gaya yang diterapkan ke elemen induk juga akan diterapkan ke semua elemen turunan di dalam induk. Jadi, jika Anda mengatur warna teks isi ke "biru", semua judul, paragraf, dan elemen teks lain di dalam badan juga akan mendapatkan warna yang sama (kecuali jika Anda menentukan yang lain)!
+
+## Menggunakan CSS
+CSS dapat ditambahkan ke dokumen HTML dengan 3 cara:
+
+* **Inline** = dengan menggunakan ```style``` atribut di dalam elemen HTML
+* **Internal** = dengan menggunakan ```<style>``` elemen di ```<head>```
+* **Eksternal** = dengan menggunakan ```<link>``` elemen untuk menautkan ke file CSS eksternal
+
+Cara paling umum untuk menambahkan CSS, adalah dengan menyimpan gaya di file CSS eksternal. Namun, dalam tutorial ini kita akan menggunakan gaya inline dan internal, karena ini lebih mudah untuk didemonstrasikan, dan lebih mudah bagi Anda untuk mencobanya sendiri.
+
+
+
+## Inline CSS
+Inline CSS digunakan untuk menerapkan gaya unik ke satu elemen HTML.
+
+Inline CSS menggunakan ```style``` atribut elemen HTML.
+
+Contoh berikut menyetel warna teks ```<h1>``` elemen menjadi biru, dan warna teks ```<p>``` elemen menjadi merah:
+
+import Trycode from 'nextra-theme-docs/trycode'
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_inline">
+    ```html
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+    ```
+    </Trycode>
+</div>
+
+## Internal CSS
+Internal CSS digunakan untuk menentukan gaya untuk satu halaman HTML.
+
+Internal CSS didefinisikan di ```<head>``` bagian halaman HTML, di dalam ```<style>``` elemen.
+
+Contoh berikut menyetel warna teks SEMUA ```<h1>``` elemen (pada halaman itu) menjadi biru, dan warna teks SEMUA ```<p>``` elemen menjadi merah. Selain itu, halaman akan ditampilkan dengan warna latar belakang "biru bubuk": 
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_internal">
+    ```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+    ```
+    </Trycode>
+</div>
+
+
+## External CSS
+Lembar gaya eksternal digunakan untuk menentukan gaya untuk banyak halaman HTML.
+
+Untuk menggunakan lembar gaya eksternal, tambahkan tautan ke dalamnya di ```<head>``` bagian setiap halaman HTML:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_internal">
+    ```html
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+    ```
+    </Trycode>
+</div>
+
+
+Lembar gaya eksternal dapat ditulis dalam editor teks apa pun. File tidak boleh berisi kode HTML apa pun, dan harus disimpan dengan ekstensi .css.
+
+Berikut adalah tampilan file "styles.css":
+
+```CSS 
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+```
+
+## Colors, Fonts and Sizes
+Di sini, kami akan mendemonstrasikan beberapa properti CSS yang umum digunakan. Anda akan belajar lebih banyak tentang mereka nanti.
+
+Properti CSS ```color``` mendefinisikan warna teks yang akan digunakan.
+
+Properti CSS ```font-family``` mendefinisikan font yang akan digunakan.
+
+Properti CSS ```font-size``` mendefinisikan ukuran teks yang akan digunakan.
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_fonts">
+    ```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+    ```
+    </Trycode>
+</div>
+
+## Border
+Properti CSS ```border``` mendefinisikan batas di sekitar elemen HTML.
+
+**Tip**: Anda dapat menentukan batas untuk hampir semua elemen HTML.
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_fonts">
+    ```html
+p {
+  border: 2px solid powderblue;
+}
+
+    ```
+    </Trycode>
+</div>
+
+## Padding
+Properti CSS ```padding``` mendefinisikan padding (spasi) antara teks dan perbatasan.
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_padding">
+    ```html
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+    ```
+    </Trycode>
+</div>
+
+
+## Margin
+Properti CSS ```margin``` mendefinisikan margin (spasi) di luar perbatasan.
+
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_padding">
+    ```html
+p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+    ```
+    </Trycode>
+</div>
+
+## Ringkasan
+
+* Gunakan ```style``` atribut HTML untuk penataan sebaris
+* Gunakan elemen HTML ```<style>``` untuk mendefinisikan CSS internal
+* Gunakan ```<link> ``` elemen HTML untuk merujuk ke file CSS eksternal
+* Gunakan ```<head>``` elemen HTML untuk menyimpan elemen ```<style>``` dan ```<link>```
+* Gunakan properti CSS ```color``` untuk warna teks
+* Gunakan ```font-family``` properti CSS untuk font teks
+* Gunakan properti CSS ```font-size```untuk ukuran teks
+* Gunakan ```border``` properti CSS untuk perbatasan
+* Gunakan ```padding``` properti CSS untuk ruang di dalam perbatasan
+* Gunakan ```margin``` properti CSS untuk ruang di luar perbatasan

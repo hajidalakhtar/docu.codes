@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/html/html_formatting": "pages/html/html_formatting.js",
-  "/html/html_comments": "pages/html/html_comments.js"
+  "/html/html_colors": "pages/html/html_colors.js",
+  "/html/html_css": "pages/html/html_css.js"
 }
