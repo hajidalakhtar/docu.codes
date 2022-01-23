@@ -9,6 +9,7 @@
   "html_paragraphs" : "Paragraf",
   "html_style" : "Style",
   "html_formatting" : "Text Formatting",
-  "html_quotation" : "Quotation"
+  "html_quotation" : "Quotation",
+  "html_comments" : "Komentar"
    
 }

@@ -3,8 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/html/html_formatting": "pages/html/html_formatting.js",
-  "/html/html_style": "pages/html/html_style.js",
-  "/html/html_paragraphs": "pages/html/html_paragraphs.js",
-  "/html/html_header": "pages/html/html_header.js",
-  "/html/html_quotation": "pages/html/html_quotation.js"
+  "/html/html_comments": "pages/html/html_comments.js"
 }

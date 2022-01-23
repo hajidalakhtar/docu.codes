@@ -1,27 +1,116 @@
-# HTML Tutorial
+# Quotation 
+Dalam bab ini kita akan membahas elemen ```<blockquote>```, ```<q>```, ```<abbr>```, ```<address>```, ```<cite>```, dan ```<bdo>``` HTML.
 
-## Belajar Mudah dengan HTML
 
-Dengan editor "Try it Yourself" yang di sediakan W3School, Anda dapat mengedit kode HTML dan melihat hasilnya:
+## ```<blockquote>``` untuk Kutipan
+Elemen HTML ```<blockquote>``` mendefinisikan bagian yang dikutip dari sumber lain.
 
+Browser biasanya membuat indentasi ```<blockquote>``` elemen.
 
 import Trycode from 'nextra-theme-docs/trycode'
-
 <div >
-<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">
-    ```markdown
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Page Title</title>
-        </head>
-        <body>
-            <h1>This is a Heading</h1>
-            <p>This is a paragraph.</p>
-        </body>
-    </html>
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_blockquote">
+    ```html
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
     ```
     </Trycode>
 </div>
 
 
+## ```<q>``` untuk Kutipan Singkat
+
+Tag HTML >```<q>>``` mendefinisikan kutipan singkat.
+
+Browser biasanya menyisipkan tanda kutip di sekitar kutipan.
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_q">
+    ```html
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    ```
+    </Trycode>
+</div>
+
+
+## ```<abbr>``` untuk Singkatan
+Tag HTML ```<abbr>``` mendefinisikan singkatan atau akronim, seperti "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+Menandai singkatan dapat memberikan informasi yang berguna bagi peramban, sistem terjemahan, dan mesin telusur.
+
+**Tip**: Gunakan atribut judul global untuk menampilkan deskripsi singkatan/akronim saat Anda mengarahkan mouse ke elemen. 
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_abbr">
+    ```html
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    ```
+    </Trycode>
+</div>
+
+## ```<address>``` untuk Informasi Kontak
+
+Tag HTML```<address>``` mendefinisikan informasi kontak untuk penulis/pemilik dokumen atau artikel.
+
+Informasi kontak dapat berupa alamat email, URL, alamat fisik, nomor telepon, pegangan media sosial, dll.
+
+Teks dalam ```<address> ```elemen biasanya dirender dalam huruf miring, dan browser akan selalu menambahkan jeda baris sebelum dan sesudah ```<address> ```elemen.
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_address">
+    ```html
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+    ```
+    </Trycode>
+</div>
+
+##  ```<cite>``` untuk Judul Karya
+Tag HTML  ```<cite>``` mendefinisikan judul karya kreatif (misalnya buku, puisi, lagu, film, lukisan, patung, dll.).
+
+Catatan: Nama seseorang bukanlah gelar sebuah karya.
+
+Teks dalam  ```<cite> ```elemen biasanya dirender dalam huruf miring .
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_cite">
+    ```html
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+    ```
+    </Trycode>
+</div>
+
+
+##  ```<bdo>``` untuk Penimpaan Dua Arah
+BDO adalah singkatan dari Bi-Directional Override.
+
+Tag HTML ```<bdo>``` digunakan untuk mengganti arah teks saat ini:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_bdo">
+    ```html
+<bdo dir="rtl">This text will be written from right to left</bdo>
+
+    ```
+    </Trycode>
+</div>
+
+
+## Ringkasan
+* ```<abbr>``` = 	Defines an abbreviation or acronym
+* ```<address>``` = 	Defines contact information for the author/owner of a document
+* ```<bdo>``` = 	Defines the text direction
+* ```<blockquote>``` = 	Defines a section that is quoted from another source
+* ```<cite>``` = 	Defines the title of a work
+* ```<q>``` = 	Defines a short inline quotation
