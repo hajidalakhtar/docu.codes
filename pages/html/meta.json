@@ -4,6 +4,8 @@
   "html_editors": "Editor",
   "html_basic": "Dasar HTML",
   "html_elemen": "Elemen HTML",
-  "html_atribut": "Atribut"
+  "html_atribut": "Atribut",
+  "html_header" : "Heading ",
+  "html_paragraphs" : "Paragraf"
    
 }

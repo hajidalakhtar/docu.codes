@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/html/html_atribut.js"
     ],
-    "/html/html_elemen": [
+    "/html/html_paragraphs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/html/html_elemen.js"
+      "static/chunks/pages/html/html_paragraphs.js"
     ]
   },
   "ampFirstPages": []

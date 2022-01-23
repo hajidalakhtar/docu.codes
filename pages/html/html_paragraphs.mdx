@@ -1,0 +1,98 @@
+# Paragraf
+> Sebuah paragraf selalu dimulai pada baris baru, dan biasanya berupa blok teks.
+
+Elemen HTML ```<p>``` mendefinisikan sebuah paragraf.
+
+Sebuah paragraf selalu dimulai pada baris baru, dan browser secara otomatis menambahkan beberapa spasi (margin) sebelum dan sesudah paragraf.
+
+import Trycode from 'nextra-theme-docs/trycode'
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1">
+    ```html
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+    ```
+    </Trycode>
+</div>
+
+## Display
+Anda tidak dapat memastikan bagaimana HTML akan ditampilkan.
+
+Layar besar atau kecil, dan jendela yang diubah ukurannya akan menghasilkan hasil yang berbeda.
+
+Dengan HTML, Anda tidak dapat mengubah tampilan dengan menambahkan spasi atau baris tambahan dalam kode HTML Anda.
+
+Browser akan secara otomatis menghapus spasi dan garis tambahan saat halaman ditampilkan:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs2">
+    ```html
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+</p>
+    ```
+    </Trycode>
+</div>
+
+## Horizontal Rules
+Tag ```<hr>``` mendefinisikan jeda tematik di halaman HTML, dan paling sering ditampilkan sebagai aturan horizontal.
+
+Elemen ```<hr>``` digunakan untuk memisahkan konten (atau menentukan perubahan) di halaman HTML:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings_hr">
+    ```html
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+    ```
+    </Trycode>
+</div>
+Tag ```<hr>``` adalah tag kosong, yang berarti tidak memiliki tag akhir.
+
+## Pemisahan Baris
+Elemen HTML ```<br>``` mendefinisikan jeda baris.
+
+Gunakan ```<br>``` jika Anda ingin jeda baris (baris baru) tanpa memulai paragraf baru:
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs">
+    ```html
+<p>This is<br>a paragraph<br>with line breaks.</p>
+
+    ```
+    </Trycode>
+</div>
+Tag ```<br>``` adalah tag kosong, yang berarti tidak memiliki tag akhir.
+
+## ```<pre>``` Element
+Elemen HTML ```<pre>``` mendefinisikan teks yang telah diformat sebelumnya.
+
+Teks di dalam ```<pre>``` elemen ditampilkan dalam font lebar tetap (biasanya Courier), dan mempertahankan spasi dan jeda baris:
+
+    ```html
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+    ```
