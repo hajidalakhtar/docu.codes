@@ -3,51 +3,24 @@
 >
 > Jangan khawatir jika kami menggunakan tag yang belum Anda pelajari.
 
+## Elemen Wajib Dalam Documen HTML
+Ada beberapa elemen yang wajib ada dalam dokumen HTML. 
+Jika tidak ada elemen tersebut maka documen HTML akan error menurut validator W3C.
 
-## Dokumen HTML
+Berikut ini daftar elemen yang wajib ada dalam documen HTML:
 
-Semua dokumen HTML harus dimulai dengan deklarasi tipe dokumen: ```<!DOCTYPE html>```.
+```<!DOCTYPE html>```: mendefinisikan bahwa dokumen ini adalah dokumen HTML5
+```<html>```: adalah elemen utama dari halaman HTML
+```<head>```: berisi informasi meta tentang halaman HTML
+```<title>```: menentukan judul untuk halaman HTML;
+```<body>```: mendefinisikan isi dari dokumen HTML, dan merupakan wadah untuk semua konten yang terlihat, 
 
-Dokumen HTML itu sendiri dimulai dengan ```<html>``` dan diakhiri dengan ```</html>```.
 
-Bagian yang terlihat dari dokumen HTML adalah antara ```<body>``` dan ```</body>```.
+## Heading 
 
-import Trycode from 'nextra-theme-docs/trycode'
+Heading dalam HTML didefinisikan dengan tag ```<h1>``` to .```<h6>```
 
-<div >
-<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document">
-    ```html
-<!DOCTYPE html>
-<html>
-        <body>
-            <h1>My First Heading</h1>
-            <p>My first paragraph.</p>
-        </body>
-</html>
-    ```
-    </Trycode>
-</div>
-
-## Deklarasi ```<!DOCTYPE>```
-
-Deklarasi ```<!DOCTYPE>``` mewakili jenis dokumen, dan membantu browser untuk menampilkan halaman web dengan benar.
-
-Itu hanya boleh muncul sekali, di bagian atas halaman (sebelum tag HTML apa pun).
-
-Deklarasi ```<!DOCTYPE>``` tidak peka huruf besar/kecil.
-
-Deklarasi ```<!DOCTYPE>``` untuk HTML5 adalah:
-
-```html
-<!DOCTYPE html>
-
-```
-
-## Header 
-
-Header HTML didefinisikan dengan tag ```<h1>``` to .```<h6>```
-
-```<h1>``` mendefinisikan judul yang paling penting. ```<h6>``` mendefinisikan heading yang paling tidak penting: 
+```<h1>``` mendefinisikan judul yang paling penting. Sedangkan ```<h6>``` mendefinisikan heading yang paling tidak penting: 
 import Trycode from 'nextra-theme-docs/trycode'
 
 <div >
@@ -62,7 +35,7 @@ import Trycode from 'nextra-theme-docs/trycode'
 
 ## Paragraf 
 
-Paragraf HTML didefinisikan dengan ```<p>``` tag:
+Paragraf dalam HTML didefinisikan dengan ```<p>``` sebagai tag:
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs">
     ```html
@@ -72,9 +45,14 @@ Paragraf HTML didefinisikan dengan ```<p>``` tag:
     </Trycode>
 </div>
 
-## Tautan  
+## Link  
 
-Tautan HTML didefinisikan dengan ```<a>``` tag:
+Link dalam HTML didefinisikan dengan tag ```<a>```.
+
+Sedangkan tujuan tautan ditentukan dalam atribut ```href``` . 
+
+Atribut digunakan untuk memberikan informasi tambahan tentang elemen HTML.
+
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link">
     ```html
@@ -84,17 +62,11 @@ Tautan HTML didefinisikan dengan ```<a>``` tag:
     </Trycode>
 </div>
 
-Tujuan tautan ditentukan dalam ```href``` atribut. 
-
-Atribut digunakan untuk memberikan informasi tambahan tentang elemen HTML.
-
-Anda akan belajar lebih banyak tentang atribut di bab selanjutnya.
-
 ## Gambar   
 
-Gambar didefinisikan dengan ```<img>``` tag.
-
-File sumber (```src```), teks alternatif (```alt```), ```width```, dan ```height``` disediakan sebagai atribut:
+Gambar dalam HTML didefinisikan dengan tag ```<img>```.
+Sedangkan file sumber ditentukan dalam atribut ```src```
+Elemen ```<img>``` memiliki atribut lain seperti teks alternatif (```alt```), ```width```, dan ```height``` 
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_img">
     ```html
@@ -103,14 +75,4 @@ File sumber (```src```), teks alternatif (```alt```), ```width```, dan ```height
     ```
     </Trycode>
 </div>
-
-Tujuan tautan ditentukan dalam ```href``` atribut. 
-
-Atribut digunakan untuk memberikan informasi tambahan tentang elemen HTML.
-
-Anda akan belajar lebih banyak tentang atribut di bab selanjutnya.
-
-
-
-
 
