@@ -61,7 +61,7 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: false,
+  footerEditLink: true,
   footerText: <>MIT {new Date().getFullYear()} © BelajarCoding.</>,
   unstable_faviconGlyph: '👋',
 }
