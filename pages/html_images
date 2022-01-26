@@ -1,0 +1,64 @@
+# Gambar
+Gambar akan membuat website kita terlihat lebih menarik. Karena otak kita lebih mudah menyerap informasi dengan visual dibandingkan hanya teks saja.
+
+## Menambahkan Gambar pada dokumen HTML
+
+Untuk menambah gambar kita dapat menggunakan tag <img> pada documen HTML. 
+
+Tag <img> kosong, hanya berisi atribut, dan tidak memiliki tag penutup.
+
+Tag <img> memiliki dua atribut yang diperlukan:
+
+* ```src``` Menentukan lokasi dimana gambar disimpan
+* ```alt``` - Menentukan teks alternatif untuk gambar
+
+
+import Trycode from 'nextra-theme-docs/trycode'
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">
+    ```html
+    <img src="img_chania.jpg" alt="Flowers in Chania">
+    ```
+    </Trycode>
+</div>
+
+> **Catatan**: pastikan anda memiliki gambar dengan nama ```img_chania.jpg``` pada folder yang sama dengan dokumen HTML
+
+## Ukuran Gambar
+Anda dapat menggunakan ```style``` atribut untuk menentukan lebar dan tinggi gambar.
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">
+    ```html
+    <img src="img_city.jpg" alt="City" style="width:500px;height:600px;">
+    ```
+    </Trycode>
+</div>
+
+Atau, Anda dapat menggunakan atribut width dan height 
+
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">
+    ```html
+    <img src="img_city.jpg" alt="City" width="500" height="600">
+    ```
+    </Trycode>
+</div>
+
+## Gambar di Server/Situs Web Lain
+
+Untuk menunjuk ke gambar di server lain, Anda harus menentukan URL absolut (penuh) dalam srcatribut
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">
+    ```html
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+    ```
+    </Trycode>
+</div> 
+
+
+---
+update nanti
