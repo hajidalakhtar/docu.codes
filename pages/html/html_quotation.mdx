@@ -1,9 +1,9 @@
 # Quotation 
-Dalam bab ini kita akan membahas elemen ```<blockquote>```, ```<q>```, ```<abbr>```, ```<address>```, ```<cite>```, dan ```<bdo>``` HTML.
+Dalam bab ini kita akan belajar mengunakan elemen ```<blockquote>```, ```<q>```, ```<abbr>```, ```<address>```, ```<cite>```, dan ```<bdo>``` yang di sediakan oleh HTML.
 
 
-## ```<blockquote>``` untuk Kutipan
-Elemen HTML ```<blockquote>``` mendefinisikan bagian yang dikutip dari sumber lain.
+## Kutipan
+Tag ```<blockquote>``` digunakan untuk bagian yang dikutip dari sumber lain.
 
 Browser biasanya membuat indentasi ```<blockquote>``` elemen.
 
@@ -12,35 +12,34 @@ import Trycode from 'nextra-theme-docs/trycode'
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_blockquote">
     ```html
 <p>Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For 50 years, WWF has been protecting the future of nature.
-The world's leading conservation organization,
-WWF works in 100 countries and is supported by
-1.2 million members in the United States and
-close to 5 million globally.
+<blockquote cite="https://id.m.wikipedia.org/wiki/Proklamasi_Kemerdekaan_Indonesia">
+Proklamasi Kemerdekaan Indonesia dilaksanakan pada hari Jumat, 17 Agustus 1945 tahun Masehi, 
+atau tanggal 17 Agustus 2605 menurut tahun Jepang, yang dibacakan oleh Soekarno dengan 
+didampingi oleh Mohammad Hatta di sebuah rumah hibah dari Faradj Martak di Jalan Pegangsaan 
+Timur No. 56, Jakarta Pusat..
 </blockquote>
     ```
     </Trycode>
 </div>
 
 
-## ```<q>``` untuk Kutipan Singkat
+## Kutipan Singkat
 
-Tag HTML >```<q>>``` mendefinisikan kutipan singkat.
+Tag ```<q>``` digunakan untuk memberi kutipan singkat.
 
-Browser biasanya menyisipkan tanda kutip di sekitar kutipan.
+Browser secara otomatis akan menyisipkan tanda kutip di sekitar kutipan.
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_q">
     ```html
-<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<p>Soekarno: <q>Beri aku 1.000 orang tua, niscaya akan kucabut semeru dari akarnya, dan beri aku 10 pemuda niscaya akan kuguncangkan dunia</q></p>
 
     ```
     </Trycode>
 </div>
 
 
-## ```<abbr>``` untuk Singkatan
-Tag HTML ```<abbr>``` mendefinisikan singkatan atau akronim, seperti "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+## Singkatan
+Tag ```<abbr>``` digunakan untuk singkatan atau akronim, seperti "HTML", "CSS", "Mr.", "Dr.", "JS".
 
 Menandai singkatan dapat memberikan informasi yang berguna bagi peramban, sistem terjemahan, dan mesin telusur.
 
@@ -48,69 +47,54 @@ Menandai singkatan dapat memberikan informasi yang berguna bagi peramban, sistem
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_abbr">
     ```html
-<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p>Kita sedang belajar <abbr title="HyperText Markup Language">HTML</abbr></p>
 
     ```
     </Trycode>
 </div>
 
-## ```<address>``` untuk Informasi Kontak
+## Informasi Kontak
 
-Tag HTML```<address>``` mendefinisikan informasi kontak untuk penulis/pemilik dokumen atau artikel.
+Tag ```<address>``` digunakan untuk memberi informasi kontak untuk penulis/pemilik dokumen atau artikel.
 
 Informasi kontak dapat berupa alamat email, URL, alamat fisik, nomor telepon, pegangan media sosial, dll.
 
-Teks dalam ```<address> ```elemen biasanya dirender dalam huruf miring, dan browser akan selalu menambahkan jeda baris sebelum dan sesudah ```<address> ```elemen.
+Teks dalam tag ```<address> ``` akan dirender dalam huruf miring, dan browser akan selalu menambahkan jeda baris sebelum dan sesudah tag ```<address> ```.
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_address">
     ```html
 <address>
-Written by John Doe.<br>
-Visit us at:<br>
-Example.com<br>
-Box 564, Disneyland<br>
-USA
+Ditulis oleh : Albert Camus<br>
+Email:albert@exampel.com<br>
+Telp: 08787837878<br>
+
 </address>
     ```
     </Trycode>
 </div>
 
-##  ```<cite>``` untuk Judul Karya
-Tag HTML  ```<cite>``` mendefinisikan judul karya kreatif (misalnya buku, puisi, lagu, film, lukisan, patung, dll.).
+## Judul Karya
+Tag ```<cite>``` digunakan untuk memberi judul pada karya kreatif (seperti buku, puisi, lagu, film, lukisan, patung, dll.).
 
-Catatan: Nama seseorang bukanlah gelar sebuah karya.
+> **Catatan**: Nama seseorang bukanlah gelar sebuah karya.
 
-Teks dalam  ```<cite> ```elemen biasanya dirender dalam huruf miring .
+Teks dalam tag ```<cite> ``` akan dirender dalam huruf miring .
 
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_cite">
     ```html
-<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<p><cite>Hujan Bulan Juni</cite> by Sapardi Djoko Damono.</p>
 
     ```
     </Trycode>
 </div>
 
 
-##  ```<bdo>``` untuk Penimpaan Dua Arah
-BDO adalah singkatan dari Bi-Directional Override.
-
-Tag HTML ```<bdo>``` digunakan untuk mengganti arah teks saat ini:
-
-<div >
-<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_bdo">
-    ```html
-<bdo dir="rtl">This text will be written from right to left</bdo>
-
-    ```
-    </Trycode>
-</div>
 
 
 ## Ringkasan
-* ```<abbr>``` = 	Defines an abbreviation or acronym
-* ```<address>``` = 	Defines contact information for the author/owner of a document
-* ```<bdo>``` = 	Defines the text direction
-* ```<blockquote>``` = 	Defines a section that is quoted from another source
-* ```<cite>``` = 	Defines the title of a work
-* ```<q>``` = 	Defines a short inline quotation
+* ```<abbr>``` = 	Digunakan untuk singkatan atau akronim
+* ```<address>``` = 	Digunakan untuk memberi informasi kontak untuk penulis/pemilik dokumen atau artikel
+* ```<blockquote>``` = 	Digunakan untuk bagian yang dikutip dari sumber lain
+* ```<cite>``` = 	Digunakan untuk memberi judul pada karya kreatif
+* ```<q>``` = 	Digunakan untuk memberi kutipan singkat
