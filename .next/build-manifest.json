@@ -24,15 +24,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/html/html_colors": [
+    "/html/html_images": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/html/html_colors.js"
+      "static/chunks/pages/html/html_images.js"
     ],
-    "/html/html_css": [
+    "/html/html_links": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/html/html_css.js"
+      "static/chunks/pages/html/html_links.js"
     ]
   },
   "ampFirstPages": []
