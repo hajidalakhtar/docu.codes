@@ -1,0 +1,111 @@
+# List
+List memungkinkan pengembang web untuk mengelompokkan satu set item terkait dalam satu kelompok
+
+
+## Elemen List
+Untuk membuat list pada HTML. kita dapat mengunakan salah satu dari tiga macam jenis list yang telah disediakan oleh HTML:
+
+* **Ordered** List adalah list yang terurut;
+* **Unordered** List adalah list yang tak terurut;
+* **Descriptiona** List adalah list yang berisi definisi.
+
+
+
+### Ordered List
+Ordered List dapat digunakan ketika kita ingin membuat list berurut seperti 1,2,3, dll
+<div >
+import Trycode from 'nextra-theme-docs/trycode'
+
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings">
+    ```html
+    <ol>
+        <li>Jeruk</li>
+        <li>Durian</li>
+        <li>Pisang</li>
+        <li>Pepaya</li>
+        <li>Mangga</li>
+    </ol>
+    ```
+    </Trycode>
+</div>
+
+Kita juga dapat menganti type list menjadi huruf seperti ``a``, ``b``, ``c`` atau angka romawi seperti ``I``, ``II``, ``III``
+
+<div>
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings">
+    ```html
+<h3>List dengan type alfabet</h3>
+ <ol type='a'>
+        <li>Tutorial List di HTML</li>
+        <li>Tutorial Link di HTML</li>
+        <li>Tutorial Tabel di HTML</li>
+    </ol>
+    <h3>List dengan type alfabet kapital (huruf besar)</h3>
+    <ol type='A'>
+        <li>Tutorial List di HTML</li>
+        <li>Tutorial Link di HTML</li>
+        <li>Tutorial Tabel di HTML</li>
+    </ol>
+    <h3>List dengan type romawi</h3>
+    <ol type='i'>
+        <li>Tutorial List di HTML</li>
+        <li>Tutorial Link di HTML</li>
+        <li>Tutorial Tabel di HTML</li>
+    </ol>
+    <h3>List dengan type romawi kapital</h3>
+    <ol type='I'>
+        <li>Tutorial List di HTML</li>
+        <li>Tutorial Link di HTML</li>
+        <li>Tutorial Tabel di HTML</li>
+    </ol>
+    ```
+    </Trycode>
+</div>
+
+## Description List 
+
+Description List adalah list yang berisi deksripsi atau penjelasan dari sesuatu.
+
+Ada tiga tag yang digunakan untuk membuat description list:
+
+* ``<dl>`` (description list) tag untuk memulai description list;
+* ``<dt>`` (description term) tag untuk membuat kata yang akan dideskripsikan;
+* ``<dd>`` (description description) tag untuk membuat penjelasan dari kata.
+
+
+<div>
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings">
+    ```html
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+    ```
+    </Trycode>
+</div>
+
+## Nested List
+kita juga dapat membuat List di dalem list lain, seperti kita ingin menggabungkan ordered list dengan unordered list.
+
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings">
+    ```html
+ <ol>
+        <li>Debian
+            <ul>
+                <li>Ubuntu</li>
+                <li>Mint</li>
+                <li>elementaryOS</li>
+            </ul>
+        </li>
+        <li>RedHat
+            <ul>
+                <li>Fedora</li>
+            </ul>
+        </li>
+        <li>Slackware</li>
+    </ol>
+    ```
+    </Trycode>
+
