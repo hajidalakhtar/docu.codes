@@ -1,0 +1,138 @@
+# Form 
+tag Form pada HTML digunakan untuk mengumpulkan input pengguna. Input pengguna nanti nya akan dikirim ke server untuk diproses.
+
+
+
+## Elemen ``<form>``
+Elemen HTML ``<form>``digunakan untuk membuat formulir pada HTML yang nanti akan membungkus input pengguna:
+
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
+    ```html
+<form>
+.
+form elements
+.
+</form>
+
+
+    ```
+    </Trycode>
+</div>
+
+tag ``<form>`` adalah wadah untuk berbagai jenis elemen input, seperti: text, checkboxes, radio buttons, submit buttons, dll.
+
+
+## Elemen ``<input>``
+Elemen HTML ``<input>`` adalah elemen form yang paling banyak digunakan.
+
+Sebuah ``<input>``elemen dapat ditampilkan dalam banyak cara, tergantung pada type atributnya.
+
+Berikut beberapa contohnya:
+
+
+| Type                    | Description                                                      |
+|-------------------------|------------------------------------------------------------------|
+| ``<input type="text">``     | Displays a single-line text input field                          |
+| ``<input type="radio">``    | Displays a radio button (for selecting one of many choices)      |
+| ``<input type="checkbox">`` | Displays a checkbox (for selecting zero or more of many choices) |
+| ``<input type="submit">``   | Displays a submit button (for submitting the form)               |
+| ``<input type="button">``   | Displays a clickable button                                      |
+
+## Input text
+``<input type="text">`` Mendefinisikan input bertype text.
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
+    ```html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+    ```
+    </Trycode>
+</div>
+
+
+## Elemen ``<label>``
+
+Tag ``<label>`` mendefinisikan label untuk banyak elemen bentuk.
+
+Elemen ``<label>`` ini berguna bagi pengguna pembaca layar, karena pembaca layar akan membacakan label dengan keras saat pengguna fokus pada elemen input.
+
+Elemen ini ``<label>``juga membantu pengguna yang mengalami kesulitan mengklik wilayah yang sangat kecil (seperti tombol radio atau kotak centang) - karena ketika pengguna mengklik teks di dalam ``<label>``elemen, itu akan mengaktifkan tombol radio/kotak centang.
+
+Atribut fortag ``<label>``harus sama dengan idatribut ``<input>`` elemen untuk mengikatnya.
+
+## Radio Buttons
+``<input type="radio">``Mendefinisikan Radio Buttons.
+
+Tombol radio memungkinkan pengguna memilih salah satu dari sejumlah pilihan yang disediakan.
+
+
+
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
+    ```html
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+    ```
+    </Trycode>
+</div>
+
+
+#Checkbox kotak centang
+``<input type="checkbox">``Mendefinisikan Checkbox .
+
+Checkbox memungkinkan pengguna untuk tidak memilih atau memilih lebih dari satu pilihan yang disedikan.
+
+
+
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
+    ```html
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+    ```
+    </Trycode>
+</div>
+
+##  Submit Button
+``<input type="submit">`` Mendefinisikan Button untuk mengirimkan data yang sudah disisi ke tujuan yang sudah ditentukan.
+
+Form-handler biasanya berupa file di server dengan skrip untuk memproses data input.
+
+Form-handler ditentukan dalam ``action`` atribut form.
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
+    ```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+    ```
+    </Trycode>
+</div>
