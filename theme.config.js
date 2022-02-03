@@ -1,10 +1,10 @@
 export default {
   github: false,
   docsRepositoryBase: 'https://github.com/hajidalakhtar/belajarcoding',
-  titleSuffix: ' – BelajarCoding',
+  titleSuffix: ' – Docu Codes',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">BELAJAR CODING</span>
+      <span className="mr-2 font-extrabold hidden md:inline">DOCU CODES</span>
       <span className="text-gray-600 font-normal hidden md:inline">
        
       </span>
@@ -16,15 +16,15 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="BelajarCoding: Semua bisa coding" />
+      <meta name="description" content="Docu Code: Semua bisa coding" />
       <meta name="og:description" content="Mudah belajar coding bagi pemula" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
       <meta name="twitter:site:domain" content="nextra.vercel.app" />
       <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="BelajarCoding: Semua bisa coding" />
+      <meta name="og:title" content="Docu Codes: Semua bisa coding" />
       <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="BelajarCoding" />
+      <meta name="apple-mobile-web-app-title" content="Docu Codes" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -62,6 +62,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: true,
-  footerText: <>MIT {new Date().getFullYear()} © BelajarCoding.</>,
+  footerText: <>MIT {new Date().getFullYear()} © Docu Codes.</>,
   unstable_faviconGlyph: '👋',
 }
