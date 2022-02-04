@@ -4,10 +4,9 @@ export default {
   titleSuffix: ' – DocuCodes',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">DOCUCODES</span>
-      <span className="text-gray-600 font-normal hidden md:inline">
-       
-      </span>
+    <img src="docu_logo.png" alt="Girl in a jacket" width="100"/>
+
+
     </>
   ),
   head: (
