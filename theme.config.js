@@ -4,7 +4,7 @@ export default {
   titleSuffix: ' – DocuCodes',
   logo: (
     <>
-    <img src="docu_logo.png" alt="Girl in a jacket" width="100"/>
+    <img src="https://www.docu.codes/docu_logo.png" alt="Girl in a jacket" width="100"/>
 
 
     </>
