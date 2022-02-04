@@ -1,10 +1,10 @@
 # Form 
-tag Form pada HTML digunakan untuk mengumpulkan input pengguna. Input pengguna nanti nya akan dikirim ke server untuk diproses.
+tag ``<Form>`` pada HTML digunakan untuk mengumpulkan input pengguna. Input pengguna nanti nya akan dikirim ke server untuk diproses.
 
 
 
 ## Elemen ``<form>``
-Elemen HTML ``<form>``digunakan untuk membuat formulir pada HTML yang nanti akan membungkus input pengguna:
+Elemen HTML ``<form>``digunakan untuk membuat formulir pada HTML yang nanti akan membungkus elemen input pengguna:
 
 
 
@@ -36,23 +36,23 @@ Berikut beberapa contohnya:
 
 | Type                    | Description                                                      |
 |-------------------------|------------------------------------------------------------------|
-| ``<input type="text">``     | Displays a single-line text input field                          |
-| ``<input type="radio">``    | Displays a radio button (for selecting one of many choices)      |
-| ``<input type="checkbox">`` | Displays a checkbox (for selecting zero or more of many choices) |
-| ``<input type="submit">``   | Displays a submit button (for submitting the form)               |
-| ``<input type="button">``   | Displays a clickable button                                      |
+| ``<input type="text">``     | Menampilkan  input bertype text                        |
+| ``<input type="radio">``    | Manampilkan radio button (untuk memilih satu dari banyak pilihan)      |
+| ``<input type="checkbox">`` | Menampilkan checkbox (untuk memilih satu atau banyak dari pilihan yang disediakan) |
+| ``<input type="submit">``   | Manampilkan button submit (untuk mengirimkan form kenapa server)               |
+| ``<input type="button">``   | Menampilkan button                                      |
 
-## Input text
+## Input bertype text
 ``<input type="text">`` Mendefinisikan input bertype text.
 
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
     ```html
 <form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
+  <label for="nama">Nama:</label><br>
+  <input type="text" id="fname" name="nama"><br>
+  <label for="umur">Umur:</label><br>
+  <input type="text" id="umur" name="umur">
 </form>
     ```
     </Trycode>
@@ -63,11 +63,7 @@ Berikut beberapa contohnya:
 
 Tag ``<label>`` mendefinisikan label untuk banyak elemen bentuk.
 
-Elemen ``<label>`` ini berguna bagi pengguna pembaca layar, karena pembaca layar akan membacakan label dengan keras saat pengguna fokus pada elemen input.
-
-Elemen ini ``<label>``juga membantu pengguna yang mengalami kesulitan mengklik wilayah yang sangat kecil (seperti tombol radio atau kotak centang) - karena ketika pengguna mengklik teks di dalam ``<label>``elemen, itu akan mengaktifkan tombol radio/kotak centang.
-
-Atribut fortag ``<label>``harus sama dengan idatribut ``<input>`` elemen untuk mengikatnya.
+Atribut ``for`` pada tag ``<label>``harus sama dengan atribut ``id`` pada elemen``<input>`` untuk mengikatnya.
 
 ## Radio Buttons
 ``<input type="radio">``Mendefinisikan Radio Buttons.
@@ -80,7 +76,7 @@ Tombol radio memungkinkan pengguna memilih salah satu dari sejumlah pilihan yang
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
     ```html
-<p>Choose your favorite Web language:</p>
+<p>Pilih bahasa pemrograman favorit kalian:</p>
 
 <form>
   <input type="radio" id="html" name="fav_language" value="HTML">
@@ -95,7 +91,7 @@ Tombol radio memungkinkan pengguna memilih salah satu dari sejumlah pilihan yang
 </div>
 
 
-#Checkbox kotak centang
+#Checkbox 
 ``<input type="checkbox">``Mendefinisikan Checkbox .
 
 Checkbox memungkinkan pengguna untuk tidak memilih atau memilih lebih dari satu pilihan yang disedikan.
@@ -107,12 +103,12 @@ Checkbox memungkinkan pengguna untuk tidak memilih atau memilih lebih dari satu 
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elements">
     ```html
 <form>
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Sepeda">
+  <label for="vehicle1"> Saya memakai sepeda</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Mobil">
+  <label for="vehicle2"> Saya memakai mobil</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Motor">
+  <label for="vehicle3"> Saya memakai motor</label>
 </form>
     ```
     </Trycode>
