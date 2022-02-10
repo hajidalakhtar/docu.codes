@@ -1,0 +1,5 @@
+.next
+.DS_Store
+dist
+examples
+packages

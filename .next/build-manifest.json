@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/css/css_sintaks": [
+    "/html/html_basic": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/css/css_sintaks.js"
+      "static/chunks/pages/html/html_basic.js"
     ]
   },
   "ampFirstPages": []

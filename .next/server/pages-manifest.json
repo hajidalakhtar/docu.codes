@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/css/css_sintaks": "pages/css/css_sintaks.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/html/html_basic": "pages/html/html_basic.js"
 }
