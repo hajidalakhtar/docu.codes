@@ -29,10 +29,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/html/html_basic": [
+    "/css/css_introduction": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/html/html_basic.js"
+      "static/chunks/pages/css/css_introduction.js"
+    ],
+    "/editor": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/editor.js"
     ]
   },
   "ampFirstPages": []
