@@ -24,10 +24,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/html/html_editors": [
+    "/css/css_selector": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/html/html_editors.js"
+      "static/chunks/pages/css/css_selector.js"
     ],
     "/html/html_paragraphs": [
       "static/chunks/webpack.js",

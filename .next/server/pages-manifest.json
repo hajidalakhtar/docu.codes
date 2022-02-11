@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/html/html_paragraphs": "pages/html/html_paragraphs.js",
   "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/html/html_editors": "pages/html/html_editors.js",
-  "/html/html_paragraphs": "pages/html/html_paragraphs.js"
+  "/css/css_selector": "pages/css/css_selector.js"
 }
