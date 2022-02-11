@@ -13,7 +13,7 @@ Tag <img> memiliki dua atribut yang diperlukan:
 * ```alt``` - Menentukan teks alternatif untuk gambar
 
 
-import Trycode from 'nextra-theme-docs/trycode'
+import Trycode from '../../component/trycode'
 
 <div >
 <Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_intro">
