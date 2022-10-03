@@ -1,0 +1,128 @@
+# HTML Tutorial
+>Atribut HTML memberikan informasi tambahan tentang elemen HTML.
+
+
+## Atribut HTML
+
+* Semua elemen HTML dapat memiliki atribut
+* Atribut memberikan informasi tambahan tentang elemen
+* Atribut selalu ditentukan di tag awal
+* Atribut biasanya datang dalam pasangan nama/nilai seperti: nama="nilai"
+
+## Atribut href
+Tag ```<a>``` mendefinisikan hyperlink. Atribut hrefmenentukan URL halaman yang dituju tautan:
+
+
+import Trycode from '../../component/trycode'
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_link">
+    ```html
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+    ```
+    </Trycode>
+</div>
+Anda akan mempelajari lebih lanjut tentang tautan di bab Tautan HTML kami .
+
+## Atribut src
+Tag ```<img>``` digunakan untuk menyematkan gambar di halaman HTML. Atribut srcmenentukan jalur ke gambar yang akan ditampilkan:
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_img_src">
+    ```html
+<img src="img_girl.jpg">
+
+    ```
+    </Trycode>
+</div>
+Ada dua cara untuk menentukan URL dalam ```src``` atribut:
+
+**1. URL Absolut**: Tautan ke gambar eksternal yang dihosting di situs web lain. Contoh: ```src="https://www.w3schools.com/images/img_girl.jpg"``` .
+
+**Catatan**: Gambar eksternal mungkin berada di bawah hak cipta. Jika Anda tidak mendapatkan izin untuk menggunakannya, Anda mungkin melanggar hak cipta. Selain itu, Anda tidak dapat mengontrol gambar eksternal; itu bisa tiba tiba dihapus atau diubah.
+
+**2. URL Relatif** : Tautan ke gambar yang dihost di dalam situs web. Di sini, URL tidak menyertakan nama domain. Jika URL dimulai tanpa garis miring, itu akan relatif terhadap halaman saat ini. Contoh: src="img_girl.jpg". Jika URL dimulai dengan garis miring, itu akan menjadi relatif terhadap domain. Contoh: ```src="/images/img_girl.jpg"```.
+
+**Tip:** Hampir selalu yang terbaik adalah menggunakan URL relatif. Mereka tidak akan rusak jika Anda mengubah domain.
+
+
+## Atribut lebar dan tinggi
+Tag ```<img>``` juga harus berisi atribut ```width``` dan ```height```, yang menentukan lebar dan tinggi gambar (dalam piksel):
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_img_src">
+    ```html
+<img src="img_girl.jpg" width="500" height="600">
+
+
+    ```
+    </Trycode>
+</div>
+
+## Atribut alt
+```alt``` Atribut yang diperlukan untuk ```<img>``` tag menentukan teks alternatif untuk gambar, jika gambar karena alasan tertentu tidak dapat ditampilkan. Hal ini dapat disebabkan oleh koneksi yang lambat, atau kesalahan pada ```src``` atribut, atau jika pengguna menggunakan pembaca layar.
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_alt_error">
+    ```html
+<img src="img_girl.jpg" alt="Girl with a jacket">
+
+
+    ```
+    </Trycode>
+</div>
+
+## Atribut style
+Atribut ```style``` digunakan untuk menambahkan gaya ke elemen, seperti warna, font, ukuran, dan lainnya.
+
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_alt_error">
+    ```html
+<p style="color:red;">This is a red paragraph.</p>
+
+    ```
+    </Trycode>
+</div>
+
+## Atribut lang
+Anda harus selalu menyertakan ```lang``` atribut di dalam ```<html>``` tag, untuk mendeklarasikan bahasa halaman Web. Ini dimaksudkan untuk membantu mesin pencari dan browser.
+
+Contoh berikut menentukan bahasa Inggris sebagai bahasa:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+```
+
+Kode negara juga dapat ditambahkan ke kode bahasa di ```lang``` atribut. Jadi, dua karakter pertama menentukan bahasa halaman HTML, dan dua karakter terakhir menentukan negara.
+
+Contoh berikut menentukan bahasa Inggris sebagai bahasa dan Amerika Serikat sebagai negara:
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+```
+
+## Atribut title
+Atribut ```title``` mendefinisikan beberapa informasi tambahan tentang suatu elemen.
+
+Nilai atribut title akan ditampilkan sebagai tooltip saat Anda mengarahkan mouse ke elemen:
+
+
+<div >
+<Trycode code_source="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_title">
+    ```html
+<p title="I'm a tooltip">This is a paragraph.</p>
+
+    ```
+    </Trycode>
+</div>
